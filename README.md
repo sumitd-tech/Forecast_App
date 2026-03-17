@@ -157,37 +157,6 @@ For production use, add your API credentials and configure authentication as nee
 
 For development/testing without API access, the service automatically returns mock data that simulates realistic wind power generation patterns.
 
-## Design System
-
-### Color Palette
-
-| Color | Value | Usage |
-|-------|-------|-------|
-| Primary | `#2563EB` | Buttons, active states |
-| Success | `#10B981` | Forecast data, positive indicators |
-| Error | `#EF4444` | Errors, warnings |
-| Background | `#FFFFFF` | Main background |
-| Surface | `#F8FAFC` | Card backgrounds |
-| Border | `#E2E8F0` | Dividers, borders |
-
-### Typography
-
-- **Title**: 28px, Bold
-- **Subtitle**: 16px, Semi-bold
-- **Body**: 14px, Regular
-- **Caption**: 12px, Regular
-- **Number**: 18px, Bold
-
-### Spacing Scale
-
-- `xs`: 4px
-- `sm`: 8px
-- `md`: 12px
-- `lg`: 16px
-- `xl`: 24px
-- `xxl`: 32px
-
-## Component Details
 
 ### ForecastChart
 
@@ -320,15 +289,5 @@ npm test
 - [react-native-svg](https://github.com/react-native-svg/react-native-svg)
 - [@react-native-community/datetimepicker](https://github.com/react-native-community/datetimepicker)
 - [Elexon BMRS API](https://www.elexon.co.uk/guidance-notes/bmrs-api-data-guide/)
-
-## License
-
-MIT
-
-## Author
-
-Developed as part of the SDE Sample Project Internship
-
----
 
 **Note**: This application uses AI tools for code assistance. The design and architecture are original and not AI-generated.
